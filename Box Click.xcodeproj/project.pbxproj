@@ -10,6 +10,8 @@
 		DA07FF67252E536300A35B45 /* Leaderboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07FF66252E536300A35B45 /* Leaderboard.swift */; };
 		DA07FF6C252FCCA700A35B45 /* PractiseMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07FF6B252FCCA700A35B45 /* PractiseMode.swift */; };
 		DA07FF7125326DDB00A35B45 /* CustomizeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA07FF7025326DDB00A35B45 /* CustomizeScreen.swift */; };
+		DA483F2A253B6C9000D66993 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA483F29253B6C9000D66993 /* AVFoundation.framework */; };
+		DA483F32253B6D6200D66993 /* death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DA483F31253B6D6200D66993 /* death.mp3 */; };
 		DA587C20252BE39E00A22E02 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA587C1F252BE39E00A22E02 /* HomePage.swift */; };
 		DADB7EFE25291BBA00DDA18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB7EFD25291BBA00DDA18A /* AppDelegate.swift */; };
 		DADB7F0025291BBA00DDA18A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADB7EFF25291BBA00DDA18A /* SceneDelegate.swift */; };
@@ -42,18 +44,20 @@
 		DA07FF66252E536300A35B45 /* Leaderboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leaderboard.swift; sourceTree = "<group>"; };
 		DA07FF6B252FCCA700A35B45 /* PractiseMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractiseMode.swift; sourceTree = "<group>"; };
 		DA07FF7025326DDB00A35B45 /* CustomizeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeScreen.swift; sourceTree = "<group>"; };
+		DA483F29253B6C9000D66993 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DA483F31253B6D6200D66993 /* death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = death.mp3; sourceTree = "<group>"; };
 		DA587C1F252BE39E00A22E02 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
-		DADB7EFA25291BBA00DDA18A /* NathansFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NathansFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB7EFA25291BBA00DDA18A /* Box Click.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Box Click.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADB7EFD25291BBA00DDA18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DADB7EFF25291BBA00DDA18A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DADB7F0425291BBA00DDA18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DADB7F0625291BBC00DDA18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DADB7F0925291BBC00DDA18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DADB7F0B25291BBC00DDA18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DADB7F1025291BBC00DDA18A /* NathansFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NathansFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB7F1025291BBC00DDA18A /* Box ClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Box ClickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADB7F1425291BBC00DDA18A /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		DADB7F1625291BBC00DDA18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DADB7F1B25291BBC00DDA18A /* NathansFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NathansFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DADB7F1B25291BBC00DDA18A /* Box ClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Box ClickUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADB7F1F25291BBC00DDA18A /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		DADB7F2125291BBC00DDA18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DADB7F3B25291C0A00DDA18A /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA483F2A253B6C9000D66993 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA483F28253B6C9000D66993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA483F29253B6C9000D66993 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA483F2B253B6D3600D66993 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DA483F31253B6D6200D66993 /* death.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		DADB7EF125291BBA00DDA18A = {
 			isa = PBXGroup;
 			children = (
@@ -91,15 +112,16 @@
 				DADB7F1325291BBC00DDA18A /* AppTests */,
 				DADB7F1E25291BBC00DDA18A /* AppUITests */,
 				DADB7EFB25291BBA00DDA18A /* Products */,
+				DA483F28253B6C9000D66993 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DADB7EFB25291BBA00DDA18A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DADB7EFA25291BBA00DDA18A /* NathansFirstApp.app */,
-				DADB7F1025291BBC00DDA18A /* NathansFirstAppTests.xctest */,
-				DADB7F1B25291BBC00DDA18A /* NathansFirstAppUITests.xctest */,
+				DADB7EFA25291BBA00DDA18A /* Box Click.app */,
+				DADB7F1025291BBC00DDA18A /* Box ClickTests.xctest */,
+				DADB7F1B25291BBC00DDA18A /* Box ClickUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +129,7 @@
 		DADB7EFC25291BBA00DDA18A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DA483F2B253B6D3600D66993 /* Sounds */,
 				DADB7EFD25291BBA00DDA18A /* AppDelegate.swift */,
 				DADB7EFF25291BBA00DDA18A /* SceneDelegate.swift */,
 				DADB7F3B25291C0A00DDA18A /* MainScreen.swift */,
@@ -143,9 +166,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DADB7EF925291BBA00DDA18A /* NathansFirstApp */ = {
+		DADB7EF925291BBA00DDA18A /* Box Click */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DADB7F2425291BBC00DDA18A /* Build configuration list for PBXNativeTarget "NathansFirstApp" */;
+			buildConfigurationList = DADB7F2425291BBC00DDA18A /* Build configuration list for PBXNativeTarget "Box Click" */;
 			buildPhases = (
 				DADB7EF625291BBA00DDA18A /* Sources */,
 				DADB7EF725291BBA00DDA18A /* Frameworks */,
@@ -155,14 +178,14 @@
 			);
 			dependencies = (
 			);
-			name = NathansFirstApp;
+			name = "Box Click";
 			productName = App;
-			productReference = DADB7EFA25291BBA00DDA18A /* NathansFirstApp.app */;
+			productReference = DADB7EFA25291BBA00DDA18A /* Box Click.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DADB7F0F25291BBC00DDA18A /* NathansFirstAppTests */ = {
+		DADB7F0F25291BBC00DDA18A /* Box ClickTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DADB7F2725291BBC00DDA18A /* Build configuration list for PBXNativeTarget "NathansFirstAppTests" */;
+			buildConfigurationList = DADB7F2725291BBC00DDA18A /* Build configuration list for PBXNativeTarget "Box ClickTests" */;
 			buildPhases = (
 				DADB7F0C25291BBC00DDA18A /* Sources */,
 				DADB7F0D25291BBC00DDA18A /* Frameworks */,
@@ -173,14 +196,14 @@
 			dependencies = (
 				DADB7F1225291BBC00DDA18A /* PBXTargetDependency */,
 			);
-			name = NathansFirstAppTests;
+			name = "Box ClickTests";
 			productName = AppTests;
-			productReference = DADB7F1025291BBC00DDA18A /* NathansFirstAppTests.xctest */;
+			productReference = DADB7F1025291BBC00DDA18A /* Box ClickTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DADB7F1A25291BBC00DDA18A /* NathansFirstAppUITests */ = {
+		DADB7F1A25291BBC00DDA18A /* Box ClickUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DADB7F2A25291BBC00DDA18A /* Build configuration list for PBXNativeTarget "NathansFirstAppUITests" */;
+			buildConfigurationList = DADB7F2A25291BBC00DDA18A /* Build configuration list for PBXNativeTarget "Box ClickUITests" */;
 			buildPhases = (
 				DADB7F1725291BBC00DDA18A /* Sources */,
 				DADB7F1825291BBC00DDA18A /* Frameworks */,
@@ -191,9 +214,9 @@
 			dependencies = (
 				DADB7F1D25291BBC00DDA18A /* PBXTargetDependency */,
 			);
-			name = NathansFirstAppUITests;
+			name = "Box ClickUITests";
 			productName = AppUITests;
-			productReference = DADB7F1B25291BBC00DDA18A /* NathansFirstAppUITests.xctest */;
+			productReference = DADB7F1B25291BBC00DDA18A /* Box ClickUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DADB7EF525291BBA00DDA18A /* Build configuration list for PBXProject "NathansFirstApp" */;
+			buildConfigurationList = DADB7EF525291BBA00DDA18A /* Build configuration list for PBXProject "Box Click" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,9 +254,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DADB7EF925291BBA00DDA18A /* NathansFirstApp */,
-				DADB7F0F25291BBC00DDA18A /* NathansFirstAppTests */,
-				DADB7F1A25291BBC00DDA18A /* NathansFirstAppUITests */,
+				DADB7EF925291BBA00DDA18A /* Box Click */,
+				DADB7F0F25291BBC00DDA18A /* Box ClickTests */,
+				DADB7F1A25291BBC00DDA18A /* Box ClickUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADB7F0A25291BBC00DDA18A /* LaunchScreen.storyboard in Resources */,
+				DA483F32253B6D6200D66993 /* death.mp3 in Resources */,
 				DADB7F0725291BBC00DDA18A /* Assets.xcassets in Resources */,
 				DADB7F0525291BBA00DDA18A /* Main.storyboard in Resources */,
 			);
@@ -301,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		DADB7F1225291BBC00DDA18A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DADB7EF925291BBA00DDA18A /* NathansFirstApp */;
+			target = DADB7EF925291BBA00DDA18A /* Box Click */;
 			targetProxy = DADB7F1125291BBC00DDA18A /* PBXContainerItemProxy */;
 		};
 		DADB7F1D25291BBC00DDA18A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DADB7EF925291BBA00DDA18A /* NathansFirstApp */;
+			target = DADB7EF925291BBA00DDA18A /* Box Click */;
 			targetProxy = DADB7F1C25291BBC00DDA18A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -502,7 +526,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NathansFirstApp.app/NathansFirstApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Box Click.app/Box Click";
 			};
 			name = Debug;
 		};
@@ -523,7 +547,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NathansFirstApp.app/NathansFirstApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Box Click.app/Box Click";
 			};
 			name = Release;
 		};
@@ -568,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DADB7EF525291BBA00DDA18A /* Build configuration list for PBXProject "NathansFirstApp" */ = {
+		DADB7EF525291BBA00DDA18A /* Build configuration list for PBXProject "Box Click" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DADB7F2225291BBC00DDA18A /* Debug */,
@@ -577,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DADB7F2425291BBC00DDA18A /* Build configuration list for PBXNativeTarget "NathansFirstApp" */ = {
+		DADB7F2425291BBC00DDA18A /* Build configuration list for PBXNativeTarget "Box Click" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DADB7F2525291BBC00DDA18A /* Debug */,
@@ -586,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DADB7F2725291BBC00DDA18A /* Build configuration list for PBXNativeTarget "NathansFirstAppTests" */ = {
+		DADB7F2725291BBC00DDA18A /* Build configuration list for PBXNativeTarget "Box ClickTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DADB7F2825291BBC00DDA18A /* Debug */,
@@ -595,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DADB7F2A25291BBC00DDA18A /* Build configuration list for PBXNativeTarget "NathansFirstAppUITests" */ = {
+		DADB7F2A25291BBC00DDA18A /* Build configuration list for PBXNativeTarget "Box ClickUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DADB7F2B25291BBC00DDA18A /* Debug */,
